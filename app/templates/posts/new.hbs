@@ -1,0 +1,9 @@
+<div class="new-post">
+  {{textarea placeholder="Add a title" class="title-area" value=titleHere}}
+  {{textarea placeholder="Add a body" class="body-area" value=bodyHere}}
+  <button {{action 'newPost'}}>Add Post</button>
+  <div class="copy-area">
+    <h2>{{titleHere}}</h2>
+    <p>{{bodyHere}}</p>
+  </div>
+</div>

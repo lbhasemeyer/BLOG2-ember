@@ -1,7 +1,15 @@
-<h2 id="title">Welcome to the Blog of Many Posts</h2>
+<header>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-{{#link-to 'posts'}}
+  <h1 id="title">Welcome to the Blog of Many Posts</h1>
+
+  {{#link-to 'posts'}}
   Posts
-{{/link-to}}
+  {{/link-to}}
+
+  {{#link-to 'posts.new'}}
+  New Post
+  {{/link-to}}
+</header>
 
 {{outlet}}

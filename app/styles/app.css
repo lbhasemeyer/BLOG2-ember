@@ -1,0 +1,88 @@
+body, html {
+  box-sizing: border-box;
+  background: #F7B32B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #F72C25;
+}
+
+h2 {
+  color: #FCF6B1;
+  text-shadow:
+  -1px -1px 0 gray,
+  1px -1px 0 gray,
+  -1px 1px 0 gray,
+  1px 1px 0 gray;
+  text-align: center;
+}
+
+p {
+  color: #36494E;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+.all-posts {
+  float: left;
+  width: 30%;
+}
+
+.each-post {
+  background: #A9E5BB;
+  margin: 5px;
+  padding: 10px;
+}
+
+.a-post, .new-post, .update-post {
+  float: right;
+  background: #7A5C61;
+  width: 60%;
+  margin-right: 70px;
+  margin-top: 40px;
+  min-height: 180px;
+  padding: 20px;
+}
+
+.a-post h3 {
+  color: #d5dbd3;
+}
+
+.title-area {
+  display: block;
+  resize: none;
+  background: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 97%;
+  outline: none;
+  margin-bottom: 25px;
+  min-height: 20px;
+}
+
+.body-area {
+  display: block;
+  resize: none;
+  background: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 97%;
+  outline: none;
+  margin-bottom: 25px;
+  min-height: 75px;
+}
+
+.copy-area {
+  min-height: 95px;
+}
+
+.copy-area p {
+  color: #d7ddd5;
+}

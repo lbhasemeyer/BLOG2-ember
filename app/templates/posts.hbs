@@ -1,6 +1,13 @@
-{{#each post in model}}
-  <h2>{{post.title}}</h2>
-  <p>{{post.body}}</p>
-{{/each}}
+<div class="all-posts">
+  {{#each post in model}}
+    <div class="each-post">
+      {{#link-to 'post' post}}
+        <h2>{{post.title}}</h2>
+      {{/link-to}}
+        <p>{{post.body}}</p>
+      <button {{action 'deletePost' post.id}}>Delete Post</button>
+    </div>
+  {{/each}}
+</div>
 
 {{outlet}}
