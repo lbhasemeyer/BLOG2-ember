@@ -1,9 +1,10 @@
 <div class="a-post">
   <h3>{{title}}</h3>
   <p>{{body}}</p>
-  {{#link-to 'post.edit' this}}
+  <button> {{#link-to 'post.edit' this}}
     Edit Post
-  {{/link-to}}
+  {{/link-to}} </button>
+  <button {{action 'deletePost' this}}>Delete Post</button>
 </div>
 
 {{outlet}}

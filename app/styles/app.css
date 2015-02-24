@@ -18,6 +18,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 p {
   color: #36494E;
 }
@@ -37,18 +41,18 @@ header {
 
 .each-post {
   background: #A9E5BB;
-  margin: 5px;
-  padding: 10px;
+  margin: 1%;
+  padding: 2%;
 }
 
-.a-post, .new-post, .update-post {
+.a-post, .new-post, .update-post, .search-result {
   float: right;
   background: #7A5C61;
   width: 60%;
-  margin-right: 70px;
-  margin-top: 40px;
+  margin-right: 4%;
+  margin-top: 3%;
   min-height: 180px;
-  padding: 20px;
+  padding: 1%;
 }
 
 .a-post h3 {
@@ -63,7 +67,7 @@ header {
   padding: 5px 10px;
   width: 97%;
   outline: none;
-  margin-bottom: 25px;
+  margin-bottom: 2%;
   min-height: 20px;
 }
 
@@ -75,7 +79,7 @@ header {
   padding: 5px 10px;
   width: 97%;
   outline: none;
-  margin-bottom: 25px;
+  margin-bottom: 2%;
   min-height: 75px;
 }
 
@@ -85,4 +89,35 @@ header {
 
 .copy-area p {
   color: #d7ddd5;
+}
+
+.a-post a {
+  color: #F72C25;
+}
+
+button {
+  background: #d7ddd5;
+  border-radius: 15px;
+  border: none;
+  padding: 6px 14px;
+  color: red;
+}
+
+header a {
+  color: red;
+  margin-right: 50px;
+}
+
+.search-area {
+  text-align: center;
+}
+
+#ember381 > div:nth-child(4) {
+  margin-top: 0px;
+}
+
+h2.search-result {
+  text-align: center;
+  color: #FCF6B1;
+  line-height: 150px;
 }

@@ -1,6 +1,6 @@
 <div class="update-post">
-  {{textarea placeholder="New title" value=title}}
-  {{textarea placeholder="New body" value=body}}
+  {{textarea placeholder="New title" class="title-area" value=title}}
+  {{textarea placeholder="New body" class="body-area" value=body}}
 
   <button {{action 'updatePost' this}}>Save Post</button>
 </div>
