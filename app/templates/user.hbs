@@ -1,0 +1,12 @@
+<div class="user-name">
+  <h1>{{firstName}}{{lastName}}</h1>
+</div>
+
+<div class="users-notes">
+  {{#each post in posts}}
+    <div class="user-note">
+      <h3>{{post.title}}</h3>
+      <p>{{post.body}}</p>
+    </div>
+  {{/each}}
+</div>

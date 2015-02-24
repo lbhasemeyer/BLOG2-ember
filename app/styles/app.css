@@ -8,7 +8,7 @@ h1 {
   color: #F72C25;
 }
 
-h2 {
+h2, .user-name h1 {
   color: #FCF6B1;
   text-shadow:
   -1px -1px 0 gray,
@@ -34,18 +34,18 @@ header {
   text-align: center;
 }
 
-.all-posts {
+.all-posts, .all-users {
   float: left;
   width: 30%;
 }
 
-.each-post {
+.each-post, .a-user {
   background: #A9E5BB;
   margin: 1%;
   padding: 2%;
 }
 
-.a-post, .new-post, .update-post, .search-result {
+.a-post, .new-post, .update-post {
   float: right;
   background: #7A5C61;
   width: 60%;
@@ -55,7 +55,7 @@ header {
   padding: 1%;
 }
 
-.a-post h3 {
+.a-post h3, .users-notes h3 {
   color: #d5dbd3;
 }
 
@@ -112,12 +112,22 @@ header a {
   text-align: center;
 }
 
-#ember381 > div:nth-child(4) {
-  margin-top: 0px;
-}
-
 h2.search-result {
   text-align: center;
   color: #FCF6B1;
   line-height: 150px;
+}
+
+.user-note, .search-result {
+  margin-top: 1%;
+  float: right;
+  background: #7A5C61;
+  width: 60%;
+  margin-right: 4%;
+  min-height: 180px;
+  padding: 1%;
+}
+
+.user-note:first-of-type {
+  margin-top: 0px;
 }
