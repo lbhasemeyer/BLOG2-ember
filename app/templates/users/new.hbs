@@ -1,0 +1,9 @@
+<div class="new-user">
+  {{textarea placeholder="Add a first name" class="first-name-area" value=firstNameHere}}
+  {{textarea placeholder="Add a last name" class="last-name-area" value=lastNameHere}}
+  <button {{action 'newUser'}}>Add User</button>
+  <div class="copy-area">
+    <h2>{{firstNameHere }}</h2>
+    <h2>{{lastNameHere}}</h2>
+  </div>
+</div>

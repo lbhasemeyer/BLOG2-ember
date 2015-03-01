@@ -2,9 +2,10 @@
   {{#each user in model}}
     <div class="a-user">
       {{#link-to 'user' user}}
-        {{user.firstName}}
-        {{user.lastName}}
-      {{/link-to}}  
+        <h2>{{user.firstName}}
+        {{user.lastName}}</h2>
+      {{/link-to}}
+      <button {{action 'deleteUser' user.id}}>Delete User</button>
     </div>
   {{/each}}
 </div>

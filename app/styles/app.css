@@ -8,7 +8,7 @@ h1 {
   color: #F72C25;
 }
 
-h2, .user-name h1 {
+h2 {
   color: #FCF6B1;
   text-shadow:
   -1px -1px 0 gray,
@@ -34,6 +34,11 @@ header {
   text-align: center;
 }
 
+.post-user-name {
+  text-align: left;
+  font-size: 16px;
+}
+
 .all-posts, .all-users {
   float: left;
   width: 30%;
@@ -45,7 +50,7 @@ header {
   padding: 2%;
 }
 
-.a-post, .new-post, .update-post {
+.a-post, .new-post, .update-post, .new-user {
   float: right;
   background: #7A5C61;
   width: 60%;
@@ -59,7 +64,7 @@ header {
   color: #d5dbd3;
 }
 
-.title-area {
+.title-area, .first-name-area, .last-name-area {
   display: block;
   resize: none;
   background: white;
@@ -128,6 +133,6 @@ h2.search-result {
   padding: 1%;
 }
 
-.user-note:first-of-type {
-  margin-top: 0px;
+.users-notes {
+  padding-top: 30px;
 }
