@@ -50,7 +50,7 @@ header {
   padding: 2%;
 }
 
-.a-post, .new-post, .update-post, .new-user {
+.a-post, .new-post, .update-post, .new-user, .edit-user {
   float: right;
   background: #7A5C61;
   width: 60%;

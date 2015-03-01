@@ -1,1 +1,8 @@
-Edit User
+<div class="edit-user">
+  {{textarea placeholder="New first name" class="first-name-area" value=firstName}}
+  {{textarea placeholder="New last name" class="last-name-area" value=lastName}}
+
+  <button {{action 'updateUser' this}}>Save User</button>
+  <h2>{{firstNameHere}}</h2>
+  <h2>{{lastNameHere}}</h2>
+</div>

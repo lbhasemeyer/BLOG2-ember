@@ -6,6 +6,9 @@
         {{user.lastName}}</h2>
       {{/link-to}}
       <button {{action 'deleteUser' user.id}}>Delete User</button>
+      {{#link-to 'user.edit' user}}
+        <button>Edit User</button>
+      {{/link-to}}
     </div>
   {{/each}}
 </div>
