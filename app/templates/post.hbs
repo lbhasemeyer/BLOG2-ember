@@ -1,11 +1,21 @@
 <div class="a-post">
   <h3>{{title}}</h3>
   <p>{{body}}</p>
-  <h3 class="post-user-name">- {{this.user.firstName}}{{this.user.lastName}}</h3>
+  <h3 class="post-user-name">-{{this.user.firstName}} {{this.user.lastName}}</h3>
   <button> {{#link-to 'post.edit' this}}
     Edit Post
   {{/link-to}} </button>
   <button {{action 'deletePost' this}}>Delete Post</button>
+
+  <br>
+  <br>
+
+  <div class="user-post-comments">
+    <h3>Comments:</h3>
+    {{#each comment in comments}}
+      <p>{{comment.body}}</p>
+    {{/each}}
+  </div>
 </div>
 
 {{outlet}}

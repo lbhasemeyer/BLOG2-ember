@@ -1,9 +1,11 @@
-<div class="users-notes">
+<div class="users-posts">
   {{#each post in posts}}
-    <div class="user-note">
-      <h3>{{post.title}}</h3>
+    <div class="user-post">
+      {{#link-to 'post' post}}
+        <h3>{{post.title}}</h3>
+      {{/link-to}}
       <p>{{post.body}}</p>
-      <h3 class="post-user-name">- {{firstName}}{{lastName}}</h3>
+      <h3 class="post-user-name">- {{firstName}} {{lastName}}</h3>
     </div>
   {{/each}}
 </div>

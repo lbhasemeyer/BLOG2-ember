@@ -60,7 +60,7 @@ header {
   padding: 1%;
 }
 
-.a-post h3, .users-notes h3 {
+.a-post h3, .users-posts h3 {
   color: #d5dbd3;
 }
 
@@ -123,7 +123,7 @@ h2.search-result {
   line-height: 150px;
 }
 
-.user-note, .search-result {
+.user-post, .search-result {
   margin-top: 1%;
   float: right;
   background: #7A5C61;
@@ -133,6 +133,6 @@ h2.search-result {
   padding: 1%;
 }
 
-.users-notes {
+.users-posts {
   padding-top: 30px;
 }
