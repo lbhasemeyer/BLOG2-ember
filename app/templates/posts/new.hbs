@@ -1,6 +1,14 @@
 <div class="new-post">
   {{textarea placeholder="Add a title" class="title-area" value=titleHere}}
   {{textarea placeholder="Add a body" class="body-area" value=bodyHere}}
+  {{view "select"
+    content=users
+    optionValuePath="content.id"
+    optionLabelPath="content.firstName"
+    value=userHere
+    prompt="Select User"}}
+  {{input type="hidden" value=id}}
+
   <button {{action 'newPost'}}>Add Post</button>
   <div class="copy-area">
     <h2>{{titleHere}}</h2>

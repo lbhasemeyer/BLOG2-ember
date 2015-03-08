@@ -34,7 +34,7 @@ header {
   text-align: center;
 }
 
-.post-user-name {
+.post-user-name, .comment-user-name {
   text-align: left;
   font-size: 16px;
 }
